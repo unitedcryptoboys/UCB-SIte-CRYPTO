@@ -1,0 +1,57 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules (если будут добавлены инструменты сборки)
+node_modules/
+
+# Build outputs (если будут добавлены инструменты сборки)
+dist/build/
+dist/temp/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Readymag specific (не нужно коммитить, если они генерируются автоматически)
+# Раскомментируйте, если нужно:
+# CONFIG_FILES_README.md
+# nginx_rmwebsite.conf
+# web.config
+# .htaccess
