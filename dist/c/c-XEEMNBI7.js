@@ -1,0 +1,1 @@
+﻿import{c as s,d as l}from"/u1179532223/5339356/dist/c/c-CSPQ5T3S.js";l();var a=()=>{let t=[s.isDesktop()?"isdesktop":"no-isdesktop"],o=s.isTablet()?["istablet","touch"]:["no-istablet","no-touch"],e=[s.isMobile()?"isphone":"no-isphone"],i=[...t,...o,...e];document.querySelector("html").classList.add(...i)};export{a};
