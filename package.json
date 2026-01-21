@@ -1,0 +1,37 @@
+{
+  "name": "ucb-site-crypto",
+  "version": "1.0.0",
+  "description": "United Crypto Boys website - optimized for GitHub Pages",
+  "scripts": {
+    "optimize": "npm run minify-html && npm run minify-css && npm run minify-js",
+    "minify-html": "html-minifier-terser --input-dir . --output-dir . --file-ext html --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-style-link-type-attributes --use-short-doctype --minify-css --minify-js",
+    "minify-css": "cleancss -o dist/viewer.min.css dist/viewer.css --level 2",
+    "minify-js": "terser dist/viewer.js -o dist/viewer.min.js --compress --mangle --comments false",
+    "test:browsers": "playwright test",
+    "test:lighthouse": "lhci autorun",
+    "build": "npm run optimize",
+    "precommit": "npm run optimize"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.12.0",
+    "@playwright/test": "^1.40.0",
+    "autoprefixer": "^10.4.16",
+    "browserslist": "^4.22.2",
+    "clean-css-cli": "^5.6.2",
+    "cssnano": "^6.0.1",
+    "html-minifier-terser": "^7.2.0",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^10.1.0",
+    "terser": "^5.24.0"
+  },
+  "browserslist": [
+    "Chrome >= 120",
+    "Firefox >= 130",
+    "Safari >= 18",
+    "Edge >= 120"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
