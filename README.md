@@ -89,11 +89,20 @@ LoadModule rewrite_module modules/mod_rewrite.so
 
 ### Рекомендации по дальнейшей оптимизации:
 
-1. Конвертировать изображения в WebP/AVIF
-2. Добавить lazy loading для изображений
-3. Реализовать code splitting
-4. Минифицировать HTML файлы
-5. Оптимизировать размер шрифтов
+1. Конвертировать изображения в WebP/AVIF ✅ (создан скрипт OPTIMIZATION_SCRIPT.ps1)
+2. Добавить lazy loading для изображений (частично реализовано через data-src)
+3. Реализовать code splitting (уже используется через модули)
+4. Минифицировать HTML файлы ✅ (уже минифицирован)
+5. Оптимизировать размер шрифтов ⏳ (требует анализа)
+
+### Выполненные оптимизации (дополнительно):
+
+- ✅ Resource hints (preconnect, dns-prefetch) для Google Fonts
+- ✅ Preload критических ресурсов (viewer.css, config.js)
+- ✅ Исправлены ошибки в JavaScript коде
+- ✅ Улучшен Service Worker
+- ✅ Добавлены дополнительные meta теги (apple-status-bar, format-detection)
+- ✅ Кэширование настроено в .htaccess
 
 ## Конфигурация
 
