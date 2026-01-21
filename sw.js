@@ -1,6 +1,6 @@
 // Service Worker для United Crypto Boys
 const CACHE_NAME = 'ucb-v1';
-const BASE_PATH = '/u1179532223/5339356';
+const BASE_PATH = '';
 const urlsToCache = [
   BASE_PATH + '/',
   BASE_PATH + '/dist/viewer.css',
