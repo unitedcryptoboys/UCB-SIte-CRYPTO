@@ -1,0 +1,1 @@
+﻿import{D as a,k as l}from"/u1179532223/5339356/dist/c/c-UKX3XYO7.js";import{a as t}from"/u1179532223/5339356/dist/c/c-TAHBUCPV.js";function n(e,r={}){return window.requestIdleCallback?window.requestIdleCallback(e,r):l(e)}var d=t(()=>{"use strict";a()});export{n as a,d as b};
