@@ -1,1 +1,1 @@
-﻿import{a,b}from"/u1179532223/5339356/dist/c/c-BK3C4FDN.js";import"/u1179532223/5339356/dist/c/c-IG4XOXEB.js";import"/u1179532223/5339356/dist/c/c-OHFRQC2M.js";import"/u1179532223/5339356/dist/c/c-U2FTHHN5.js";import"/u1179532223/5339356/dist/c/c-TAHBUCPV.js";b();export{a as getWebVitals};
+﻿import{a,b}from"/UCB-SIte-CRYPTO/dist/c/c-BK3C4FDN.js";import"/UCB-SIte-CRYPTO/dist/c/c-IG4XOXEB.js";import"/UCB-SIte-CRYPTO/dist/c/c-OHFRQC2M.js";import"/UCB-SIte-CRYPTO/dist/c/c-U2FTHHN5.js";import"/UCB-SIte-CRYPTO/dist/c/c-TAHBUCPV.js";b();export{a as getWebVitals};

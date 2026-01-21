@@ -1,4 +1,4 @@
-﻿import{a as i,b as m}from"/u1179532223/5339356/dist/c/c-Q7L6TC6B.js";import{a as g}from"/u1179532223/5339356/dist/c/c-MTEWFZUN.js";import{b as s,c as y}from"/u1179532223/5339356/dist/c/c-OHFRQC2M.js";import{a as h}from"/u1179532223/5339356/dist/c/c-UEIEIK52.js";import{b as d}from"/u1179532223/5339356/dist/c/c-2IW6BEWA.js";import{a,d as r}from"/u1179532223/5339356/dist/c/c-TAHBUCPV.js";var c,n=a(()=>{"use strict";m();c={"template-common-alert":i`
+﻿import{a as i,b as m}from"/UCB-SIte-CRYPTO/dist/c/c-Q7L6TC6B.js";import{a as g}from"/UCB-SIte-CRYPTO/dist/c/c-MTEWFZUN.js";import{b as s,c as y}from"/UCB-SIte-CRYPTO/dist/c/c-OHFRQC2M.js";import{a as h}from"/UCB-SIte-CRYPTO/dist/c/c-UEIEIK52.js";import{b as d}from"/UCB-SIte-CRYPTO/dist/c/c-2IW6BEWA.js";import{a,d as r}from"/UCB-SIte-CRYPTO/dist/c/c-TAHBUCPV.js";var c,n=a(()=>{"use strict";m();c={"template-common-alert":i`
 	<%
 		var categories = {
 			'type-duplicate':				'category-upgrade',
