@@ -1,4 +1,4 @@
-﻿import{a,b as e}from"/u1179532223/5339356/dist/c/c-Q7L6TC6B.js";import{a as t}from"/u1179532223/5339356/dist/c/c-TAHBUCPV.js";var s,d=t(()=>{"use strict";e();s={"template-constructor-block-facebook-type_like_button":a`
+﻿import{a,b as e}from"/dist/c/c-Q7L6TC6B.js";import{a as t}from"/dist/c/c-TAHBUCPV.js";var s,d=t(()=>{"use strict";e();s={"template-constructor-block-facebook-type_like_button":a`
 	<div class="fb-like fb" data-href="<%-data.url ? data.url : 'http://readymag.com'%>" <%=data.share_button || data.send_button ? 'data-share="true"' : ''%> data-width="<%=data.w%>" data-show-faces="<%=data.show_faces%>" data-colorscheme="<%=data.theme%>" data-layout="<%=data.layout%>" data-type="data.type_like_button"></div>
 	<div class="overlay"></div>
 `,"template-constructor-block-facebook-type_page":a`

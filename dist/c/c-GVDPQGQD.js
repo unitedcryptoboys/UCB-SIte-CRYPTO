@@ -1,1 +1,1 @@
-﻿import"/u1179532223/5339356/dist/c/c-TAHBUCPV.js";var o=async({widget:e})=>{let t=e?.$el?.[0];t&&e.cursorStyle&&(t.style.cursor=e.cursorStyle)},r=o;export{r as default};
+﻿import"/dist/c/c-TAHBUCPV.js";var o=async({widget:e})=>{let t=e?.$el?.[0];t&&e.cursorStyle&&(t.style.cursor=e.cursorStyle)},r=o;export{r as default};

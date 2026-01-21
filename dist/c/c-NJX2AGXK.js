@@ -1,1 +1,1 @@
-﻿import{a as r,f as i}from"/u1179532223/5339356/dist/c/c-TAHBUCPV.js";var s,t,n=r(()=>{"use strict";s=class{constructor(){i(this,"permissions");this.permissions={}}init(e){this.permissions=e}getPermissions(){return this.permissions||{}}},t=new s});export{t as a,n as b};
+﻿import{a as r,f as i}from"/dist/c/c-TAHBUCPV.js";var s,t,n=r(()=>{"use strict";s=class{constructor(){i(this,"permissions");this.permissions={}}init(e){this.permissions=e}getPermissions(){return this.permissions||{}}},t=new s});export{t as a,n as b};

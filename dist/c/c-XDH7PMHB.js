@@ -1,4 +1,4 @@
-﻿import{a as s,b as I}from"/u1179532223/5339356/dist/c/c-Q7L6TC6B.js";import{q as g,r as P}from"/u1179532223/5339356/dist/c/c-YWMSYINN.js";import{a as W}from"/u1179532223/5339356/dist/c/c-MTEWFZUN.js";import{a as k}from"/u1179532223/5339356/dist/c/c-UEIEIK52.js";import{b as O}from"/u1179532223/5339356/dist/c/c-2IW6BEWA.js";import{a as n,d as b}from"/u1179532223/5339356/dist/c/c-TAHBUCPV.js";var h,m=n(()=>{"use strict";I();h={"template-common-hotspot-widget":s`
+﻿import{a as s,b as I}from"/dist/c/c-Q7L6TC6B.js";import{q as g,r as P}from"/dist/c/c-YWMSYINN.js";import{a as W}from"/dist/c/c-MTEWFZUN.js";import{a as k}from"/dist/c/c-UEIEIK52.js";import{b as O}from"/dist/c/c-2IW6BEWA.js";import{a as n,d as b}from"/dist/c/c-TAHBUCPV.js";var h,m=n(()=>{"use strict";I();h={"template-common-hotspot-widget":s`
 
     <div class="common-hotspot">
       <div class="pin"></div>
