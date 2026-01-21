@@ -1,0 +1,47 @@
+name: PageSpeed Optimization
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Optimize session-storage.js
+        run: npx terser js/session-storage.js -o js/session-storage.min.js --compress --mangle --comments false
+
+      - name: Minify CSS
+        run: npx cleancss -o dist/viewer.min.css dist/viewer.css --level 2
+
+      - name: Minify viewer.js
+        run: npx terser dist/viewer.js -o dist/viewer.min.js --compress --mangle --comments false
+
+      - name: Update index.html to use minified files
+        run: |
+          sed -i 's|js/session-storage\.js|js/session-storage.min.js|g' index.html
+
+      - name: Optimize SVG files
+        run: npm run optimize-svg
+        continue-on-error: true
+
+      - name: Commit optimized files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --staged --quiet || git commit -m "PageSpeed optimization: minify JS/CSS"
+          git push
