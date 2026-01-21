@@ -38,6 +38,10 @@ jobs:
         run: npm run optimize-svg
         continue-on-error: true
 
+      - name: Optimize LCP
+        run: npm run optimize-lcp
+        continue-on-error: true
+
       - name: Commit optimized files
         run: |
           git config --local user.email "action@github.com"
